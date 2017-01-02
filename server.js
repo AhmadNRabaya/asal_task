@@ -62,7 +62,7 @@ MongoClient.connect(DATABASE_PATH,function(err,database){
     });
 
     //event on / path
-    app.get('/index',function(req,res){
+    app.get('/',function(req,res){
 
 
 
