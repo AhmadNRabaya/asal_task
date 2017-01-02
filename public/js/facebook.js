@@ -1,13 +1,9 @@
-
-
-
-
 $(document).ready(function (){
-    var accessToken = null;
+    var accessToken = 'EAARZAEmPufoYBAKF4S7FsEaX2icKlWapAD6ZB4rP3fVDFWmZBZAtZAxcJNUZBqQMlzzvwsBN3ynZCejTlDsas0OelltgXZCAsZCqEosWbxKQ1ugSHmtbO9wduHDXbnXA47BPDNnp4ZCCZBKAFQdZCv0BCVj2g5JZBvypy2uAZD';
 
         function statusChangeCallback(response) {
             if (response.status === 'connected') {
-                accessToken = response.authResponse.accessToken;
+                //accessToken = response.authResponse.accessToken;
                 getInfo();
             } else if (response.status === 'not_authorized') {
                 login();
