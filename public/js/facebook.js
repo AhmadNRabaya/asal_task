@@ -46,6 +46,7 @@ $(document).ready(function (){
     function getInfo(){
 
              FB.api('/me?access_token='+accessToken,'GET',{fields: 'name,link,id,email,picture.width(500).height(500),location,gender,birthday,education,work'},function(res){
+                 console.log(res);
                  $('#picture').attr('src',res.picture.data.url );
                  $('#link').attr('href',res.link);
                  $('#userName').html(res.name);
