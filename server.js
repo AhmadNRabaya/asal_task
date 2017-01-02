@@ -82,7 +82,7 @@ MongoClient.connect(DATABASE_PATH,function(err,database){
         let user = new User();
         user.setProps(req.body);
         userModel.addUser(user);
-        res.redirect('/index');
+        res.redirect('/');
 
     });
 
