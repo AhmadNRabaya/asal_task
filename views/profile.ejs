@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above  3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-4.min.css" rel="stylesheet">
+    <link href="/css/dataTables.bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Application -->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css">-->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+    <nav class="navbar navbar-default navbar-inverse ">
+        <div class="col-xs-11 ">
+            <h3>FB Profile Viewer</h3>
+        </div>
+        <div class="col-xs-1">
+            <h3>
+                <a class="btn btn-link" href="/index">Home</a>
+            </h3>
+        </div>
+
+
+    </nav>
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <div id="status"></div>
+
+        <div class="col-sm-12 col-12 col-xs-12 profile panel panel-default">
+            <div class="row">
+
+                <nav class="navbar navbar-inverse col-sm-12 col-12 col-xs-12 ">
+                    <h3>Facebook Profile</h3>
+                </nav>
+                <div class="col-sm-12 col-12 col-xs-12 col-md-2 col-lg-2">
+                    <div class="row">
+                        <div class="col-sm-12 col-12 col-xs-12">
+                            <img src=""  id="picture" class="img-responsive" >
+                        </div>
+
+                        <div class="col-sm-12 col-12 col-xs-12">
+                            <a class="btn btn-primary col-sm-12 col-12 col-xs-12" href="" target="_blank" id="link">View Profile</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-12 col-xs-12 col-md-10 col-lg-10">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>User Name:</label>
+                            <label id="userName"></label>
+                        </div>
+                        <div class="col-xs-12">
+                            <label>Location:</label>
+                            <label id="location"></label>
+                        </div>
+                        <div class="col-xs-12">
+                            <label>Email:</label>
+                            <label id="userEmail"></label>
+                        </div>
+                        <div class="col-xs-12">
+                            <label>Birthday:</label>
+                            <label id="birthday"></label>
+                        </div>
+                        <div class="col-xs-12">
+                            <label>Gender:</label>
+                            <label id="gender"></label>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    <div class="col-sm-12 col-12 col-xs-12 workHistory  panel panel-default">
+
+        <div class="row">
+            <nav class="navbar navbar-inverse col-sm-12 col-12 col-xs-12 ">
+                <h3>Work History</h3>
+            </nav>
+
+
+            <div class="col-xs-12" id="work">
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="col-sm-12 col-12 col-xs-12 educationHistory  panel panel-default">
+
+        <div class="row">
+            <nav class="navbar navbar-inverse col-sm-12 col-12 col-xs-12 ">
+                <h3>Education History</h3>
+            </nav>
+
+
+            <div class="col-xs-12" id="education">
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</div>
+
+
+</body>
+<footer class="footer">
+
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/js/jquery-3.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap-4.min.js"></script>
+<script src="/js/jquery.dataTables.min.js"></script>
+<script src="/js/dataTables.bootstrap.min.js"></script>
+
+<!--Application-->
+<script src="/js/facebook.js"></script>
+
+
+</html>
+
+
+
+
+
+
+
+

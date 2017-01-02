@@ -1,0 +1,18 @@
+.profile,.workHistory,.educationHistory {
+
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+
+}
+h,h1,h2,h3{
+    padding-top:10px;
+    color: white;
+}
+
+img{
+    margin-bottom: 15px;
+
+}
+#name,#email,#mobile,#fbId{
+    margin-top: 20px;
+}
